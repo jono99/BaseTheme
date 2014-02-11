@@ -10,9 +10,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title><?php wp_title(''); ?></title>
 
-<link rel="stylesheet" media="screen" type="text/css" href="<? bloginfo('template_directory'); ?>/css/style.css" />
-<link rel="stylesheet" media="screen" type="text/css" href="<? bloginfo('template_directory'); ?>/style.css" />
-<link rel="shortcut icon" href="<? bloginfo('template_directory'); ?>/images/favicon.png" />
+<link rel="stylesheet" media="screen" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/style.css" />
+<link rel="stylesheet" media="screen" type="text/css" href="<?php bloginfo('template_directory'); ?>/style.css" />
+<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.png" />
 
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
