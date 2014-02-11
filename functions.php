@@ -1,9 +1,5 @@
 <?php
 
-/*
-	// php error console // ONLY ENABLE IF YOU HAVE PHP CONSOLE CHROME EXTENSION
-		get_template_part('includes/functions/logs/PhpConsole');
-*/
 
 	// options panel
 	
@@ -12,13 +8,6 @@
 			require_once dirname( __FILE__ ) . '/inc/options-framework.php';
 		}
 	
-/*
-	// editor styles
-	
-		add_editor_style();
-*/
-
-
 
 	// define user id
 	
