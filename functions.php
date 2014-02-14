@@ -1,6 +1,12 @@
 <?php
 
 
+	// image gallery
+	
+		if ( !isset( $content_width ))
+			$content_width = 970;
+
+
 	// options panel
 	
 		if ( !function_exists( 'optionsframework_init' ) ) {
