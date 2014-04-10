@@ -19,7 +19,12 @@
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<script type="text/javascript">var siteurl = '<?php echo bloginfo('url'); ?>', templatedir = '<?php echo bloginfo('template_directory'); ?>';</script>
+<script type="text/javascript">
+	var siteurl = '<?php echo bloginfo('url'); ?>', 
+	templatedir = '<?php echo bloginfo('template_directory'); ?>', 
+	ajaxurl = '<?php echo admin_url('admin-ajax.php'); ?>';
+</script>
+
 <?php wp_enqueue_script('bootstrap', get_bloginfo('template_directory').'/js/bootstrap.js', array('jquery'), '1.0', true ); ?>
 <?php wp_enqueue_script('theme', get_bloginfo('template_directory').'/js/theme.js', array('jquery'), '1.0', true ); ?>
 
