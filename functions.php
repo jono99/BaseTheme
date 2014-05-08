@@ -6,15 +6,6 @@
 		if ( !isset( $content_width ))
 			$content_width = 970;
 
-
-	// options panel
-	
-		if ( !function_exists( 'optionsframework_init' ) ) {
-			define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/inc/' );
-			require_once dirname( __FILE__ ) . '/inc/options-framework.php';
-		}
-	
-
 	// define user id
 	
 		if (is_user_logged_in()) {
@@ -47,6 +38,12 @@
 		get_template_part('includes/functions/advanced-custom-fields/acf');
 		get_template_part('includes/functions/acf-repeater/acf-repeater');
 		get_template_part('includes/functions/acf-gallery/acf-gallery');
+
+		// titan
+		
+			get_template_part('includes/titan-framework/titan-framework');
+			get_template_part('includes/titan');
+
 		
 	// admin
 
