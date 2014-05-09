@@ -280,6 +280,11 @@
 		
 	});
 	
+	$(document).on('acf/conditional_logic/show acf/conditional_logic/hide', function( e, $target, item ){
+		
+		$target.closest('tr.row').trigger('mouseenter');
+		
+	});
 	
 
 })(jQuery);

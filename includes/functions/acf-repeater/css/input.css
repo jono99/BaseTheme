@@ -4,7 +4,6 @@
 
 .repeater > table {
 	margin: 0 0 8px;
-	table-layout: fixed;
 }
 
 .repeater > table.acf-input-table > tbody > tr > td.field {

@@ -7,7 +7,7 @@ Requires at least: 3.0
 Tested up to: 3.5.1
 Stable tag: trunk
 Homepage: http://www.advancedcustomfields.com/add-ons/repeater-field/
-Version: 1.1.0
+Version: 1.1.1
 
 
 == Copyright ==
@@ -51,6 +51,10 @@ include_once('acf-repeater/acf-repeater.php');
 
 
 == Changelog ==
+
+= 1.1.1 =
+* Fixed CSS bug causing any nested flexible content fields to not display add/remove buttons for each layout
+* Fixes CSS bug causing cropped tables on small screen sizes
 
 = 1.1.0 =
 * Added Support for sub field conditional logic
