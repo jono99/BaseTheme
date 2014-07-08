@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
+<html lang="en">
 <head>
-
+	
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -34,7 +31,7 @@
 
 <body <?php echo body_class(); ?>>
 
-	<?php if (is_user_logged_in()) { ?>
+	<?php /* if (is_user_logged_in()) { ?>
 	<div id="editlink">
 		<div class="btn-group">
 			<button type="button" class="btn btn-inverse btn-xs dropdown-toggle" data-toggle="dropdown" data-toggle="tooltip" data-original-title="Tools" data-placement="right" data-container="body"><i class="icon-cogs"></i></button>
@@ -47,7 +44,7 @@
 			</ul>
 		</div>
 	</div>
-	<?php } ?>
+	<?php } */ ?>
 
 
 <?php wp_footer(); ?>
