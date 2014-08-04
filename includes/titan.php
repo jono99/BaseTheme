@@ -10,7 +10,7 @@
 
 	// titan init
 	
-		$titan = TitanFramework::getInstance($themeinfo);
+		$titan = TitanFramework::getInstance($GLOBALS['themename']);
 
 	// create admin page
 
