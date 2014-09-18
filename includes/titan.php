@@ -5,8 +5,8 @@
 
 	// get theme name from theme folder name
 
-		$GLOBALS['themename'] = array_reverse(explode('/', get_bloginfo('template_directory')))[0]; 
-
+		$global_themename = array_reverse(explode('/', get_bloginfo('template_directory')));
+		$GLOBALS['themename'] = $global_themename[0];
 
 	// titan init
 	
@@ -26,12 +26,6 @@
 			    'name' => 'Miscellaneous',
 			) );
 			
-				$miscTab->createOption( array(
-				    'name' => 'Favicon',
-				    'id' => 'favicon',
-				    'type' => 'upload',
-				    'desc' => '16x16 PNG or ICO file'
-				) );
 				
 				$miscTab->createOption( array(
 				    'name' => 'Analytics',
@@ -40,15 +34,8 @@
 				    'desc' => 'Paste the FULL Analytics script here'
 				) );
 
-				$miscTab->createOption( array(
-				    'name' => 'Conference Menu',
-				    'id' => 'conference_menu',
-				    'type' => 'multicheck-pages',
-				    'desc' => 'Choose the pages that must be in the Conference menu panel.'
-				) );
 
-
-		// home tab
+/*		// home tab
 
 			$homeTab = $panel->createTab( array(
 			    'name' => 'Home',
@@ -183,7 +170,7 @@
 						    'placeholder' => 'http://'
 						) );
 
-
+*/
 
 		// social tab
 
