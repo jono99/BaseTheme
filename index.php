@@ -49,5 +49,7 @@
 
 <?php wp_footer(); ?>
 
+<?php if (get_titan('analytics')) { echo get_titan('analytics'); } ?>
+
 </body>
 </html>
