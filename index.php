@@ -31,21 +31,6 @@
 
 <body <?php echo body_class(); ?>>
 
-	<?php /* if (is_user_logged_in()) { ?>
-	<div id="editlink">
-		<div class="btn-group">
-			<button type="button" class="btn btn-inverse btn-xs dropdown-toggle" data-toggle="dropdown" data-toggle="tooltip" data-original-title="Tools" data-placement="right" data-container="body"><i class="icon-cogs"></i></button>
-			<ul class="dropdown-menu" role="menu">
-				<li><a href="<?php echo bloginfo('url'); ?>/wp-admin/" data-toggle="tooltip" data-original-title="WP Admin" data-placement="right" data-container="body"><i class="icon-wp"></i></a></li>
-				<li class="divider"></li>
-				<li><a href="<?php echo bloginfo('url'); ?>/wp-admin/post.php?post=<?php echo $post->ID; ?>&action=edit" data-toggle="tooltip" data-original-title="Edit this item" data-placement="right" data-container="body"><i class="icon-pencil"></i></a></li>
-				<li class="divider"></li>
-				<li><a href="<?php echo wp_logout_url(get_bloginfo('url')); ?>" data-toggle="tooltip" data-original-title="Log Out" data-placement="right" data-container="body"><i class="icon-off"></i></a></li>
-			</ul>
-		</div>
-	</div>
-	<?php } */ ?>
-
 
 <?php wp_footer(); ?>
 
