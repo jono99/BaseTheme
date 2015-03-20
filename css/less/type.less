@@ -1,0 +1,53 @@
+
+
+/* Type
+--------------------------------------------- */
+
+
+	
+	.copy(@size: 24px, @weight: 200) {
+		font-family: 'brandon-grotesque',Arial,sans-serif;
+		font-weight: @weight;
+		font-size: @size;
+	}
+	
+	.heading(@size: 40px, @weight: 600) {
+		font-family: 'brandon-grotesque', Arial, sans-serif;
+		font-weight: @weight;
+		font-size: @size;
+		text-transform: uppercase;
+		position: relative;
+		margin: 0 0 50px;
+		padding: 0 0 20px;
+		text-align: center;
+		color:@_primary;
+		
+		&::after {
+			content: ' ';
+			position: absolute;
+			width: 220px;
+			bottom:0;
+			left: 50%;
+			margin: 0 0 0 -110px;
+			height: 8px;
+			background: @_secondary;
+		}
+	}
+
+
+h1, h2 {
+	.heading();
+	
+	@media (max-width: 600px) {
+		font-size: 30px;
+		line-height: 35px;
+		margin-bottom: 30px;
+	}
+}
+
+h3 {
+	font-size:30px;
+	text-transform: uppercase;
+	margin: 0 0 30px;
+	color:@_primary;
+}
